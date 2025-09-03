@@ -10,6 +10,31 @@ const Projects = () => {
     <div className="container-fluid pt-5" style={{backgroundColor: '#1a1a1a', height: '200px'}}>
         <h1 data-aos="fade-in" className='text-center page-title' style={{fontFamily: 'Montserrat', margin: '0px 0px', color : 'rgb(180, 157, 91)', fontSize: '50px', letterSpacing: '2px', fontWeight: 700, textTransform: 'uppercase'}}>open source contribution</h1>
     </div>
+        <div className="container-fluid d-flex pt-5 card-2" style={{backgroundColor: '#1a1a1a', height: '400px', justifyContent: 'center'}}>
+    <div class="card mb-3 card-1-size" data-aos="zoom-in" style={{maxWidth: "540px", height: '300px', color: 'white', border: '1px solid rgb(47, 48, 49)'}}>
+        <div class="row g-0" style={{height: '100%'}}>
+        <div class="col-md-4" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+            <img src="../../assets/wchat-logo.png" class="img-fluid rounded-start" alt="noimage" style={{objectFit: 'contain', height: '170px'}}/>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body text-white" style={{backgroundColor: 'rgb(47, 48, 49)', height: '100%', fontFamily: "'Montserrat'"}}>
+            <h5 class="card-title">
+                <b style={{color: 'rgb(180, 157, 91)'}}>WChat – Group Chat Website</b>
+            </h5>
+            <br />
+            <p class="card-text">
+                Made a chat website where people can join and talk in real-time. It shows notifications when someone joins or sends a message, asks before closing or reloading, and gives a random Guest name if you don’t enter one.
+            </p>
+            <p class="card-text">
+                <small class="text-body-secondary">
+                <a href="https://wchat-app.vercel.app" target="_blank" rel="noopener noreferrer">https://wchat-app.vercel.app</a>
+                </small>
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
     <div className="container-fluid d-flex pt-5 card-2" style={{backgroundColor: '#1a1a1a', height: '400px', justifyContent: 'center'}}>
     <div class="card mb-3 card-1-size" data-aos="zoom-in" style={{maxWidth: "540px", height: '300px', color: 'white', border: '1px solid rgb(47, 48, 49)'}}>
         <div class="row g-0" style={{height: '100%'}}>
@@ -23,7 +48,7 @@ const Projects = () => {
             </h5>
             <br />
             <p class="card-text">
-                Built a healthcare management system with MERN stack featuring role-based login, appointment booking, prescriptions, and admin dashboard.          </p>
+                Built a healthcare management system with MERN stack featuring role-based login, appointment booking, prescriptions, and admin dashboard.</p>
             <p class="card-text">
                 <small class="text-body-secondary">
                 <a href="https://healthcare-mern.vercel.app" target="_blank" rel="noopener noreferrer">https://healthcare-mern.vercel.app</a>

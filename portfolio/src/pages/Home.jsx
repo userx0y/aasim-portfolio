@@ -107,6 +107,7 @@ const Home = () => {
         </div>
     </div>
     </div>
+    
     <div className="container-fluid new-college-card" style={{backgroundColor: '#1a1a1a', display: 'flex', justifyContent: 'center', padding: '30px 0'}}>
     <div className="card mb-3 shadow-lg" style={{border: 'none', maxWidth: '860px', width: '100%'}}>
         <img src="../../assets/ug.png" className="card-img-top" alt="noimage" 

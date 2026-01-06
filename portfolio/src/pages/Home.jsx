@@ -102,7 +102,7 @@ const Home = () => {
         <div className="card-body text-white" style={{backgroundColor: 'rgb(47, 48, 49)', fontFamily: "'Montserrat'"}}>
         <h5 className="card-title" style={{color: 'rgb(180, 157, 91)'}}>Postgraduate (PG)</h5>
         <p className="card-text" style={{fontSize: '18px'}}>Master Of Computer Application</p>
-        <p className="card-text">MEASI Institute of Information Technology | Sep 2024 — Apr 2026</p>
+        <p className="card-text">MEASI Institute of Information Technology | Sep 2023 — May 2025</p>
         <p className="card-text"><small>Location: Chennai, India</small></p>
         </div>
     </div>

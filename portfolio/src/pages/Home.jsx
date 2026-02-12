@@ -75,7 +75,7 @@ const Home = () => {
         <div className="card mb-3" style={{maxWidth: "18rem", height: '150px', border: 'none'}}>
             <div className="card-body card-body-logo" style={{backgroundColor: '#1a1a1a'}}>
                 <h1 className="card-title" style={{fontSize: '100px'}}><i data-aos="fade-in" class="devicon-nodejs-plain colored"></i></h1>
-            </div>
+            </div>   
         </div>
     </div>
     <div className="container-fluid last-section" style={{display: 'flex', height: '250px', justifyContent: 'center', alignItems: 'center', backgroundColor: '#1a1a1a'}}>

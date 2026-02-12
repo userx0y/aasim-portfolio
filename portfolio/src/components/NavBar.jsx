@@ -22,7 +22,7 @@ const NavBar = () => {
         <div className="offcanvas-body">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-            {/* <button className="nav-link text-white" style={{fontFamily: 'Montserrat', fontSize: '18px'}} data-bs-dismiss="offcanvas" onClick={()=> handleNav('/experience')}>EXPERIENCE</button> */}
+            <button className="nav-link text-white" style={{fontFamily: 'Montserrat', fontSize: '18px'}} data-bs-dismiss="offcanvas" onClick={()=> handleNav('/experience')}>EXPERIENCE</button>
             </li>
             <li className="nav-item">
             <button className="nav-link text-white" style={{fontFamily: 'Montserrat', fontSize: '18px'}} data-bs-dismiss="offcanvas" onClick={()=> handleNav('/projects')}>OPEN SOURCE</button>
